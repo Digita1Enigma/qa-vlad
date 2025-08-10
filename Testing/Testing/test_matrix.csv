@@ -1,0 +1,15 @@
+Feature,Scenario,Priority,Positive,Negative,Notes
+Login,Valid credentials,High,Yes,,Expect 200/redirect
+Login,Invalid password,High,,Yes,Error 401/422
+Login,Empty form,Medium,,Yes,Field validation
+Search,Exact match,Medium,Yes,,
+Search,Case-insensitive,Low,Yes,,ram vs RAM
+Filters,Price range 1000–1500,High,Yes,,Upper bound
+Filters,Reset filters,Medium,Yes,,Return to default
+Cart,Add to cart from PDP,High,Yes,,Counter updates
+Cart,Remove from cart,High,Yes,,Totals recalc
+Checkout,Valid data,High,Yes,,Order created
+Checkout,Expired promo,Low,,Yes,Error message
+API,GET /posts/{id} 1..3,High,Yes,,id matches
+API,GET /posts/0,Medium,,Yes,404/empty ok
+API,POST /posts,High,Yes,,201 payload
