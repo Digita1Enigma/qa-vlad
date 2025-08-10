@@ -1,0 +1,1 @@
+Ручное тестирование, Web/UI, API/REST, HTTP, JSON, тест‑кейсы, баг‑репорты, чек‑листы, Postman, DevTools, pytest, requests, jsonschema, pytest‑html, Python (база), SQL (база), HTML/CSS, Git, Windows.
